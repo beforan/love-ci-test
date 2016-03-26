@@ -12,7 +12,7 @@ wget https://bitbucket.org/rude/love/downloads/love-0.10.1-win32.zip
 unzip love-0.10.1-win32.zip
 
 # copy the files over
-copy ./love-0.10.1-win32/* ./dist
+cp ./love-0.10.1-win32/* ./dist
 
 # make the combined .exe
 cat ./dist/love.exe game.love > ./dist/game.exe
