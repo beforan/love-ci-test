@@ -1,7 +1,0 @@
-%YAML 1.1
----
-language: generic
-install: true
-script:
-- ./build-win32.sh
-...
