@@ -3,5 +3,7 @@
 language: generic
 install: true
 sudo: required
-script: build-win32.sh
+script:
+- chmod +x build-win32.sh
+- build-win32.sh
 ...
